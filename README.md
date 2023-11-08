@@ -1,16 +1,16 @@
 # IS218-final
 November 2023
-| Date        | Jordon Chau | Brian Maina | Student 3 |
-|-------------|-----------|-----------|-----------|
-| Nov 8 (Wed) |     x      |           |           |
-| Nov 10 (Fri)|           |           |           |
-| Nov 15 (Wed)|           |           |           |
-| Nov 17 (Fri)|           |           |           |
-| Nov 22 (Wed) |          |           |           |  <!-- Skipped for Thanksgiving -->
-| Nov 24 (Fri) |          |           |           |  <!-- Skipped for Thanksgiving -->
+| Date        | Jordon Chau | Brian Maina |           |
+|-------------|-----------  |-----------  |-----------|
+| Nov 8 (Wed) |     x       |             |           |
+| Nov 10 (Fri)|             |             |           |
+| Nov 15 (Wed)|             |             |           |
+| Nov 17 (Fri)|             |             |           |
+| Nov 22 (Wed) |            |             |           |  <!-- Skipped for Thanksgiving -->
+| Nov 24 (Fri) |            |             |           |  <!-- Skipped for Thanksgiving -->
 
 December 2023
-| Date        | Student 1 | Student 2 | Student 3 |
+| Date        | Student 1 | Student 2 |  
 |-------------|-----------|-----------|-----------|
 | Nov 29 (Wed)|           |           |           |
 | Dec 1 (Fri) |           |           |           |
