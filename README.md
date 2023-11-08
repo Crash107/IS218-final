@@ -2,7 +2,7 @@
 November 2023
 | Date        | Jordon Chau | Brian Maina |           |
 |-------------|-----------  |-----------  |-----------|
-| Nov 8 (Wed) |     x       |             |           |
+| Nov 8 (Wed) |     x       |    x         |           |
 | Nov 10 (Fri)|             |             |           |
 | Nov 15 (Wed)|             |             |           |
 | Nov 17 (Fri)|             |             |           |
