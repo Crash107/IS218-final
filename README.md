@@ -1,19 +1,14 @@
-# IS218-final
-November 2023
-| Date        | Jordon Chau | Brian Maina |           |
-|-------------|-----------  |-----------  |-----------|
-| Nov 8 (Wed) |     x       |    x         |           |
-| Nov 10 (Fri)|     x        |    x         |           |
-| Nov 15 (Wed)|     x        |    x         |           |
-| Nov 17 (Fri)|             |             |           |
-| Nov 22 (Wed) |            |             |           |  <!-- Skipped for Thanksgiving -->
-| Nov 24 (Fri) |            |             |           |  <!-- Skipped for Thanksgiving -->
+Sign In:
+https://github.com/jordonchau/IS218-final/blob/main/signin.md
 
-December 2023
-| Date        | Student 1 | Student 2 |  
-|-------------|-----------|-----------|-----------|
-| Nov 29 (Wed)|           |           |           |
-| Dec 1 (Fri) |           |           |           |
-| Dec 6 (Wed) |           |           |           |
-| Dec 8 (Fri) |           |           |           |
-| Dec 13 (Wed)|           |           |           |
+Comp Analysis:
+https://github.com/jordonchau/IS218-final/blob/main/competitiveanalysis.md
+
+SWOT Analysis:
+https://github.com/jordonchau/IS218-final/blob/main/SWOTanalysis.md
+
+Persona:
+https://github.com/jordonchau/IS218-final/blob/main/persona.md
+
+User Stories:
+https://github.com/jordonchau/IS218-final/blob/main/userstories.md
