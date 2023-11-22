@@ -6,7 +6,7 @@ November 2023
 | Nov 10 (Fri)|     x        |    x         |           |
 | Nov 15 (Wed)|     x        |    x         |           |
 | Nov 17 (Fri)|     x        |        x     |           |
-| Nov 22 (Wed) |            |       x      |           |  <!-- Skipped for Thanksgiving -->
+| Nov 22 (Wed) |     x       |       x      |           |  <!-- Skipped for Thanksgiving -->
 | Nov 24 (Fri) |            |             |           |  <!-- Skipped for Thanksgiving -->
 
 December 2023
