@@ -25,3 +25,20 @@ Community engagement and marketing
 Loyalty Program Development
 - Initiative: develop loyal customer base
 - Create and launch loyalty program to reward customers and encourage more visits
+
+User Story 1
+
+Emmie sees the flavor's section on the main page of the site
+
+Action: clicks on flavors 
+
+Result: sees her favorite childhood flavors
+
+User Story 2:
+
+Emmie sees deals that the website offers if she enters her email to become a member
+
+Action: Emmie creates an account 
+
+Result: Emmie receives a 30% discount off her next order
+
