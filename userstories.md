@@ -42,3 +42,11 @@ Action: Emmie creates an account
 
 Result: Emmie receives a 30% discount off her next order
 
+User Story 3:
+
+Emmie sees the the button labeled History
+
+Action: Emmie clicks on the button
+
+Result: Emmie sees when and how the ice cream shop was established
+
