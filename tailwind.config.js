@@ -9,11 +9,7 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        lateef: ["Lateef", "cursive"],
-      },
-    },
+    extend: {},
   },
   darkMode: "class",
   plugins: [nextui()],

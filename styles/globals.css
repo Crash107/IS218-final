@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body {
+  font-family: "Lateef", cursive;
+  font-family: "Arial", sans-serif;
+
+  font-family: "Literata", serif;
+}
+
+.font-lateef {
+  font-family: "Lateef", cursive;
+}
+
+.font-sans {
+  font-family: "Arial", sans-serif;
+}
+
+.font-literata {
+  font-family: "Literata", serif;
+}
