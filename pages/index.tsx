@@ -20,15 +20,19 @@ export default function IndexPage() {
   return (
     <div>
       <Navbar>
-        <NavbarContent className="hidden sm:flex gap-4" justify="start">
+        <NavbarContent className="sm:flex gap-4" justify="start">
           <NavbarBrand>
-            <p className="font-bold text-inherit">Scoops of Euphoria</p>
+            <p className="font-bold text-inherit font-literata">
+              Scoops of Euphoria
+            </p>
             <Image width={50} alt="NextUI hero Image" src="/ice.png" />
           </NavbarBrand>
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem className="hidden lg:flex">
-            <Link href="#">Login</Link>
+            <Link href="#" className="font-sans">
+              Login
+            </Link>
           </NavbarItem>
           <NavbarItem>
             <Button as={Link} color="primary" href="#" variant="flat">
@@ -39,27 +43,27 @@ export default function IndexPage() {
       </Navbar>
       <Navbar className="flex justify-center items-center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" className="font-sans">
             HOME
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" color="foreground">
+          <Link href="#" color="foreground" className="font-sans">
             ICE CREAM CAKES
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" className="font-sans">
             CAKES
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" className="font-sans">
             REWARDS
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" className="font-sans">
             ABOUT
           </Link>
         </NavbarItem>
