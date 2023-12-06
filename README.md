@@ -1,24 +1,9 @@
-# Next.js & NextUI Template
+##Sign In: https://github.com/jordonchau/IS218-final/blob/main/signin.md
 
-This is a template for creating applications using Next.js 13 (pages directory) and NextUI (v2).
+##Comp Analysis: https://github.com/jordonchau/IS218-final/blob/main/competitiveanalysis.md
 
-## Technologies Used
+##SWOT Analysis: https://github.com/jordonchau/IS218-final/blob/main/SWOTanalysis.md
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI](https://nextui.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+##Persona: https://github.com/jordonchau/IS218-final/blob/main/persona.md
 
-## How to Use
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-pages-template
-```
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-pages-template/blob/main/LICENSE).
+##User Stories: https://github.com/jordonchau/IS218-final/blob/main/userstories.md
