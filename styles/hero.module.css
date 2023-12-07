@@ -1,0 +1,28 @@
+/* YourComponent.css */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background: url("/icecream.png") no-repeat calc(100% - 50px);
+  background-size: 600px 375px;
+  height: 560px;
+
+  font: 2rem / 1.6;
+  margin-top: 25px;
+  border-top: 2px solid #000; /* Adjust the color and thickness as needed */
+  border-bottom: 2px solid #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: none;
+  }
+}
