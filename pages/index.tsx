@@ -8,6 +8,7 @@ import { GithubIcon } from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
 import { Image } from "@nextui-org/react";
 import React from "react";
+import styles from "../styles/hero.module.css";
 
 import {
   Navbar,
@@ -18,27 +19,6 @@ import {
 } from "@nextui-org/react";
 
 export default function IndexPage() {
-  const containerStyle = {
-    position: "relative",
-    width: "1400px",
-    height: "400px",
-  };
-
-  const textContainerStyle = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    textAlign: "center",
-    zIndex: 1,
-  };
-
-  const customTextStyle = {
-    color: "white",
-    fontSize: "24px",
-    fontWeight: "bold",
-  };
-
   return (
     <div>
       <Navbar>
@@ -98,7 +78,7 @@ export default function IndexPage() {
           position: "relative",
           display: "flex",
           textAlign: "center",
-          width: "1000px",
+
           height: "400px",
           backgroundImage: 'url("/icecream.png")',
           margin: "auto",
@@ -124,6 +104,35 @@ export default function IndexPage() {
           Your Text Here
         </p>
       </div>
+
+      <section className={styles.hero}>
+        <h1
+          style={{
+            marginTop: "5rem",
+            width: "35rem",
+            color: "#ffea00",
+            marginLeft: "50px",
+            top: "75%",
+          }}
+        >
+          Irresistible Deal! Join Mailchimp and receive up
+          <br /> to 30% off your next order!
+        </h1>
+      </section>
+      <section className={styles.hero}>
+        <h1
+          style={{
+            marginTop: "5rem",
+            width: "35rem",
+            color: "#ffea00",
+            marginLeft: "50px",
+            top: "75%",
+          }}
+        >
+          Irresistible Deal! Join Mailchimp and receive up
+          <br /> to 30% off your next order!
+        </h1>
+      </section>
     </div>
   );
 }
