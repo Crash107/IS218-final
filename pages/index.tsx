@@ -62,34 +62,37 @@ export default function IndexPage() {
 
       <div
         style={{
-          position: "relative",
           display: "flex",
-
-          height: "400px",
-          backgroundImage: 'url("/icecream.png")',
-        }}
-      ></div>
-
-      <div
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          zIndex: 1,
-          textAlign: "center",
+          position: "relative",
+          justifyContent: "center", // Center horizontally
+          alignItems: "center", // Center vertically
+          height: "800px",
+          background: 'url("/hero.png") no-repeat',
+          backgroundPosition: "center", // Center the background image
+          marginRight: "auto",
+          marginLeft: "auto",
         }}
       >
-        <p
+        <div
           style={{
-            color: "black",
-            fontSize: "48px",
-            fontWeight: "bold",
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            textAlign: "center",
           }}
         >
-          Indulge in a world of flavors
-          <br /> discover your favorite flavors today!
-        </p>
+          <p
+            style={{
+              color: "black",
+              fontSize: "98px",
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            Hello
+          </p>
+        </div>
       </div>
 
       <section className={styles.hero}>
@@ -97,27 +100,30 @@ export default function IndexPage() {
           style={{
             marginTop: "5rem",
             width: "35rem",
-            color: "#ffea00",
-            marginLeft: "50px",
-            top: "75%",
+
+            left: "50%",
+
+            fontSize: "72px",
           }}
         >
-          Irresistible Deal! Join Mailchimp and receive up
-          <br /> to 30% off your next order!
+          Winter Sale!
+          <br /> All original flavors are 40% Off
         </h1>
       </section>
+
       <section className={styles.hero1}>
         <h1
           style={{
             marginTop: "5rem",
             width: "35rem",
             color: "#ffea00",
-            marginLeft: "50px",
-            top: "75%",
+
+            left: "50%",
+
+            textAlign: "center",
           }}
         >
-          Irresistible Deal! Join Mailchimp and receive up
-          <br /> to 30% off your next order!
+          Irresistible Deal! Join Mailchimp and receive
         </h1>
       </section>
     </DefaultLayout>
