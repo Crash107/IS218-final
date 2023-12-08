@@ -18,7 +18,7 @@ import {
   Button,
 } from "@nextui-org/react";
 
-export default function IndexPage() {
+const icecreampage = () => {
   return (
     <div>
       <Navbar>
@@ -72,67 +72,8 @@ export default function IndexPage() {
           </Link>
         </NavbarItem>
       </Navbar>
-
-      <div
-        style={{
-          position: "relative",
-          display: "flex",
-
-          height: "400px",
-          backgroundImage: 'url("/icecream.png")',
-        }}
-      ></div>
-
-      <div
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          zIndex: 1,
-          textAlign: "center",
-        }}
-      >
-        <p
-          style={{
-            color: "black",
-            fontSize: "48px",
-            fontWeight: "bold",
-          }}
-        >
-          Indulge in a world of flavors
-          <br /> discover your favorite flavors today!
-        </p>
-      </div>
-
-      <section className={styles.hero}>
-        <h1
-          style={{
-            marginTop: "5rem",
-            width: "35rem",
-            color: "#ffea00",
-            marginLeft: "50px",
-            top: "75%",
-          }}
-        >
-          Irresistible Deal! Join Mailchimp and receive up
-          <br /> to 30% off your next order!
-        </h1>
-      </section>
-      <section className={styles.hero1}>
-        <h1
-          style={{
-            marginTop: "5rem",
-            width: "35rem",
-            color: "#ffea00",
-            marginLeft: "50px",
-            top: "75%",
-          }}
-        >
-          Irresistible Deal! Join Mailchimp and receive up
-          <br /> to 30% off your next order!
-        </h1>
-      </section>
     </div>
   );
-}
+};
+
+export default icecreampage;
