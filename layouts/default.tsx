@@ -1,6 +1,7 @@
 import { NavbarMain } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import { Head } from "./head";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export default function DefaultLayout({
   children,
@@ -9,6 +10,7 @@ export default function DefaultLayout({
 }) {
   return (
     <div className="relative flex flex-col h-screen">
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-07XM55RLGD" />
       <Head />
       <NavbarMain />
       <main className="container mx-auto max-w-7xl px-6 flex-grow">

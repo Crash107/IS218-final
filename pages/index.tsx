@@ -20,7 +20,7 @@ import {
 
 export default function IndexPage() {
   return (
-    <div>
+    <DefaultLayout>
       <Navbar>
         <NavbarContent justify="start">
           <NavbarBrand>
@@ -133,6 +133,6 @@ export default function IndexPage() {
           <br /> to 30% off your next order!
         </h1>
       </section>
-    </div>
+    </DefaultLayout>
   );
 }
