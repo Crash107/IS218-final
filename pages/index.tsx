@@ -30,19 +30,6 @@ export default function IndexPage() {
             <Image width={50} alt="NextUI hero Image" src="/ice.png" />
           </NavbarBrand>
         </NavbarContent>
-
-        <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link href="#" className="font-sans">
-              Login
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
-            <Button as={Link} color="primary" href="#" variant="flat">
-              Sign Up
-            </Button>
-          </NavbarItem>
-        </NavbarContent>
       </Navbar>
 
       <Navbar className="flex justify-center">
