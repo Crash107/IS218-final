@@ -77,11 +77,9 @@ export default function IndexPage() {
         style={{
           position: "relative",
           display: "flex",
-          textAlign: "center",
 
           height: "400px",
           backgroundImage: 'url("/icecream.png")',
-          margin: "auto",
         }}
       ></div>
 
@@ -92,6 +90,7 @@ export default function IndexPage() {
           left: "50%",
           transform: "translate(-50%, -50%)",
           zIndex: 1,
+          textAlign: "center",
         }}
       >
         <p
@@ -101,7 +100,8 @@ export default function IndexPage() {
             fontWeight: "bold",
           }}
         >
-          Your Text Here
+          Indulge in a world of flavors
+          <br /> discover your favorite flavors today!
         </p>
       </div>
 
@@ -119,7 +119,7 @@ export default function IndexPage() {
           <br /> to 30% off your next order!
         </h1>
       </section>
-      <section className={styles.hero}>
+      <section className={styles.hero1}>
         <h1
           style={{
             marginTop: "5rem",
