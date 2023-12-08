@@ -90,7 +90,7 @@ export default function IndexPage() {
               textAlign: "center",
             }}
           >
-            Hello
+            Hello my name is Brian
           </p>
         </div>
       </div>
