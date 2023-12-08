@@ -90,7 +90,7 @@ export default function IndexPage() {
               textAlign: "center",
             }}
           >
-            Hello
+            Hello5
           </p>
         </div>
       </div>
