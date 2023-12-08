@@ -2,6 +2,7 @@ import { NavbarMain } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import { Head } from "./head";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import CookieBanner from "@/components/CookieBanner";
 
 export default function DefaultLayout({
   children,
@@ -15,6 +16,7 @@ export default function DefaultLayout({
       <NavbarMain />
       <main className="container mx-auto max-w-7xl px-6 flex-grow">
         {children}
+        <CookieBanner />
       </main>
       <footer className="w-full flex items-center justify-center py-3">
         <Link
