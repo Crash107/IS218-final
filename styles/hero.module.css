@@ -3,12 +3,11 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  background: url("/icecream.png") no-repeat calc(100% - 50px);
+  background: url("/icecream2.png") no-repeat calc(100% - 50px);
   background-size: 600px 375px;
   height: 560px;
-
+  align-items: "center";
   font: 2rem / 1.6;
-  margin-top: 25px;
 
   border-bottom: 2px solid #000;
 }
