@@ -14,7 +14,7 @@ export default function DefaultLayout({
       <GoogleAnalytics GA_MEASUREMENT_ID="G-07XM55RLGD" />
       <Head />
       <NavbarMain />
-      <main className="container mx-auto max-w-7xl px-6 flex-grow">
+      <main>
         {children}
         <CookieBanner />
       </main>
