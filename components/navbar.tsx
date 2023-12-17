@@ -6,28 +6,50 @@ import {
   NavbarItem,
   Link,
   Button,
+  Image,
 } from "@nextui-org/react";
 
 export const NavbarMain = () => {
   return (
-    <Navbar>
-      <NavbarContent className="flex justify-center items-center">
+    <div>
+      <Navbar>
+        <NavbarContent justify="start">
+          <NavbarBrand>
+            <p className="font-bold text-inherit font-literata">
+              Scoops of Euphoria
+            </p>
+            <Image width={50} alt="NextUI hero Image" src="/ice.png" />
+          </NavbarBrand>
+        </NavbarContent>
+      </Navbar>
+
+      <Navbar className="flex justify-center">
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Customers
+          <Link color="foreground" href="/" className="font-sans">
+            HOME
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
+          <Link href="/icecreampage" color="foreground" className="font-sans">
+            ICE CREAM CAKES
           </Link>
         </NavbarItem>
-      </NavbarContent>
-    </Navbar>
+        <NavbarItem>
+          <Link color="foreground" href="#" className="font-sans">
+            CAKES
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#" className="font-sans">
+            REWARDS
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#" className="font-sans">
+            ABOUT
+          </Link>
+        </NavbarItem>
+      </Navbar>
+    </div>
   );
 };
