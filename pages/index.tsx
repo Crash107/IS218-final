@@ -59,13 +59,14 @@ export default function IndexPage() {
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-start",
-          background: 'url("/vanilla2.png") no-repeat calc(100% - 50px)',
+          justifyContent: "flex-end",
+          background: 'url("/vanilla2.png") calc(0% + 50px) no-repeat',
           backgroundSize: "600px 375px",
           height: "560px",
           alignItems: "center",
           font: "2rem / 1.6",
           borderBottom: "2px solid #000",
+          borderTop: "2px solid #000",
         }}
       >
         <h1
@@ -73,10 +74,36 @@ export default function IndexPage() {
             marginTop: "5rem",
             width: "35rem",
             left: "50%",
-            fontSize: "72px",
+            fontSize: "3.75rem",
           }}
         >
           New Cinammon Flavor!
+        </h1>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-start",
+          background: 'url("/icecream2.png") no-repeat calc(100% - 50px)',
+          backgroundSize: "600px 375px",
+          height: "560px",
+          alignItems: "center",
+          font: "2rem / 1.6",
+          borderBottom: "2px solid #000",
+
+          margin: "auto",
+        }}
+      >
+        <h1
+          style={{
+            marginTop: "5rem",
+            width: "35rem",
+            left: "50%",
+            fontSize: "3.75rem",
+          }}
+        >
+          Winter Sale!
+          <br /> All original <br /> flavors are 40% Off
         </h1>
       </div>
       <div
@@ -96,34 +123,10 @@ export default function IndexPage() {
             marginTop: "5rem",
             width: "35rem",
             left: "50%",
-            fontSize: "72px",
+            fontSize: "3.75rem",
           }}
         >
-          Winter Sale!
-          <br /> All original flavors are 40% Off
-        </h1>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "flex-start",
-          background: 'url("/icecream2.png") no-repeat calc(100% - 50px)',
-          backgroundSize: "600px 375px",
-          height: "560px",
-          alignItems: "center",
-          font: "2rem / 1.6",
-          borderBottom: "2px solid #000",
-        }}
-      >
-        <h1
-          style={{
-            marginTop: "5rem",
-            width: "35rem",
-            left: "50%",
-            fontSize: "72px",
-          }}
-        >
-          Look at Our Delicious Cakes!
+          Look at our Delicious Cakes
         </h1>
       </div>
     </DefaultLayout>
