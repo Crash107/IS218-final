@@ -1,15 +1,15 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import {
-  Button,
   Center,
   Container,
   Flex,
   Heading,
-  Input,
   Text,
   useToast,
 } from "@chakra-ui/react";
 import Image from "next/image";
+import { Input } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 export default function Home() {
   const [emailInput, setEmailInput] = useState("");
   const [buttonLoading, setButtonLoading] = useState(false);
@@ -50,58 +50,24 @@ export default function Home() {
     setButtonLoading(false);
   };
   return (
-    <Center>
-      <Flex
-        gap="50px"
-        justifyContent="space-between"
-        alignItems="center"
-        flexDir={["column", null, "row"]}
-        maxW="1200px"
-        m="50px 0"
-      >
-        <Container>
-          <Heading fontSize={["4xl", null, null, "5xl"]} mb="20px">
-            Be the first to know when we launch
-          </Heading>
-          <Text color="gray.600" fontSize="18px" mb="30px">
-            We are still building. Subscribe for updates and 20% off when we
-            launch. No spam, we promise!
-          </Text>
-          <form onSubmit={handleFormSubmit}>
-            <Flex gap="15px">
-              <Input
-                type="email"
-                placeholder="Enter your email..."
-                value={emailInput}
-                onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                  setEmailInput(e.target.value)
-                }
-              />
-              <Button
-                isLoading={buttonLoading}
-                type="submit"
-                bg="purple.500"
-                color="black"
-                _hover={{ bg: "purple.600" }}
-                _active={{ bg: "purple.700" }}
-              >
-                Subscribe
-              </Button>
-            </Flex>
-            <Text color="gray.500" as="small">
-              Join our pre-launch waitlist!
-            </Text>
-          </form>
-        </Container>
-        <Container display="flex" justifyContent="center">
-          <Image
-            src={"/hero-image.png"}
-            alt="app mockup"
-            width={470}
-            height={470}
+    <div className="flex justify-center items-center h-screen">
+      <form onSubmit={handleFormSubmit}>
+        <div>
+          <Input
+            type="email"
+            label="Email"
+            placeholder="Enter your email"
+            value={emailInput}
+            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+              setEmailInput(e.target.value)
+            }
           />
-        </Container>
-      </Flex>
-    </Center>
+        </div>
+
+        <Button isLoading={buttonLoading} type="submit">
+          Subscribe
+        </Button>
+      </form>
+    </div>
   );
 }
