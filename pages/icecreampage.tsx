@@ -14,58 +14,60 @@ import {
 export default function icecreampage() {
   const list = [
     {
-      title: "Orange",
-      img: "/icecream.png",
+      title: "Chocolate",
+      img: "/chocolate.png",
       price: "$5.50",
     },
     {
-      title: "Tangerine",
-      img: "/icecream.png",
+      title: "Vanilla",
+      img: "/vanilla.png",
       price: "$3.00",
     },
     {
-      title: "Raspberry",
-      img: "/icecream.png",
+      title: "Mint Chocolate Chip",
+      img: "/mint.png",
+      price: "$3.00",
+    },
+    {
+      title: "Cookies N Creame",
+      img: "/oreo.png",
       price: "$10.00",
     },
     {
-      title: "Orange",
-      img: "/icecream.png",
+      title: "Cookie Dough",
+      img: "/strawberry.png",
       price: "$5.50",
     },
+
     {
-      title: "Tangerine",
-      img: "/icecream.png",
-      price: "$3.00",
-    },
-    {
-      title: "Raspberry",
-      img: "/icecream.png",
+      title: "Strawberry",
+      img: "/strawberry.png",
       price: "$10.00",
     },
   ];
 
   const list1 = [
     {
-      title: "Lemon 2",
-      img: "/icecream.png",
+      title: "Cinammon",
+      img: "/vanilla2.png",
       price: "$8.00",
     },
     {
-      title: "Banana",
-      img: "/icecream.png",
+      title: "Green Tea",
+      img: "/mint2.png",
       price: "$7.50",
     },
     {
-      title: "Watermelon",
-      img: "/icecream.png",
+      title: "Butter Peaan",
+      img: "/pecan.png",
       price: "$12.20",
     },
   ];
 
   return (
     <DefaultLayout>
-      <h1>Original</h1>
+      <h1 style={{ fontSize: "48px", marginTop: "40px" }}>Original Flavor</h1>
+
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-3">
         {list.map((item, index) => (
           <Card
@@ -91,7 +93,7 @@ export default function icecreampage() {
           </Card>
         ))}
       </div>
-      <h1 style={{ marginTop: "60px" }}>New Flavors</h1>
+      <h1 style={{ marginTop: "60px", fontSize: "48px" }}>New Flavors</h1>
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-3">
         {list1.map((item, index) => (
           <Card
