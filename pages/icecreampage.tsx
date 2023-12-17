@@ -57,44 +57,6 @@ export default function icecreampage() {
 
   return (
     <DefaultLayout>
-      <Navbar>
-        <NavbarContent justify="start">
-          <NavbarBrand>
-            <p className="font-bold text-inherit font-literata">
-              Scoops of Euphoria
-            </p>
-            <Image width={50} alt="NextUI hero Image" src="/ice.png" />
-          </NavbarBrand>
-        </NavbarContent>
-      </Navbar>
-
-      <Navbar className="flex justify-center">
-        <NavbarItem>
-          <Link color="foreground" href="/" className="font-sans">
-            HOME
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="/icecreampage" color="foreground" className="font-sans">
-            ICE CREAM CAKES
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#" className="font-sans">
-            CAKES
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#" className="font-sans">
-            REWARDS
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#" className="font-sans">
-            ABOUT
-          </Link>
-        </NavbarItem>
-      </Navbar>
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-3">
         {list.map((item, index) => (
           <Card
