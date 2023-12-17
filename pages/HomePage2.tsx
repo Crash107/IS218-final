@@ -81,7 +81,7 @@ export default function Home() {
                 isLoading={buttonLoading}
                 type="submit"
                 bg="purple.500"
-                color="white"
+                color="black"
                 _hover={{ bg: "purple.600" }}
                 _active={{ bg: "purple.700" }}
               >
