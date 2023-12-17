@@ -56,37 +56,76 @@ export default function IndexPage() {
         </div>
       </div>
 
-      <section className={styles.hero}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-start",
+          background: 'url("/vanilla2.png") no-repeat calc(100% - 50px)',
+          backgroundSize: "600px 375px",
+          height: "560px",
+          alignItems: "center",
+          font: "2rem / 1.6",
+          borderBottom: "2px solid #000",
+        }}
+      >
         <h1
           style={{
             marginTop: "5rem",
             width: "35rem",
-
             left: "50%",
-
+            fontSize: "72px",
+          }}
+        >
+          New Cinammon Flavor!
+        </h1>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-end",
+          background: 'url("/icecream2.png") calc(0% + 50px) no-repeat',
+          backgroundSize: "600px 375px",
+          height: "560px",
+          alignItems: "center",
+          font: "2rem / 1.6",
+          borderBottom: "2px solid #000",
+        }}
+      >
+        <h1
+          style={{
+            marginTop: "5rem",
+            width: "35rem",
+            left: "50%",
             fontSize: "72px",
           }}
         >
           Winter Sale!
           <br /> All original flavors are 40% Off
         </h1>
-      </section>
-
-      <section className={styles.hero1}>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-start",
+          background: 'url("/icecream2.png") no-repeat calc(100% - 50px)',
+          backgroundSize: "600px 375px",
+          height: "560px",
+          alignItems: "center",
+          font: "2rem / 1.6",
+          borderBottom: "2px solid #000",
+        }}
+      >
         <h1
           style={{
             marginTop: "5rem",
             width: "35rem",
-            color: "#ffea00",
-
             left: "50%",
-
-            textAlign: "center",
+            fontSize: "72px",
           }}
         >
-          Irresistible Deal! Join Mailchimp and receive
+          Look at Our Delicious Cakes!
         </h1>
-      </section>
+      </div>
     </DefaultLayout>
   );
 }
