@@ -35,7 +35,7 @@ export default function icecreampage() {
     },
     {
       title: "Cookie Dough",
-      img: "/strawberry.png",
+      img: "/cookiedough.png",
       price: "$5.50",
     },
 
