@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import { Link } from "@nextui-org/link";
+import DefaultLayout from "@/layouts/default";
 
 import {
   Navbar,
@@ -55,7 +56,7 @@ export default function icecreampage() {
   ];
 
   return (
-    <div>
+    <DefaultLayout>
       <Navbar>
         <NavbarContent justify="start">
           <NavbarBrand>
@@ -119,6 +120,6 @@ export default function icecreampage() {
           </Card>
         ))}
       </div>
-    </div>
+    </DefaultLayout>
   );
 }
