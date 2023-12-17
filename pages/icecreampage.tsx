@@ -17,32 +17,38 @@ export default function icecreampage() {
       title: "Chocolate",
       img: "/chocolate.png",
       price: "$5.50",
+      title1: "Calories: 1300",
     },
     {
       title: "Vanilla",
       img: "/vanilla.png",
       price: "$3.00",
+      title1: "Calories: 1200",
     },
     {
       title: "Mint Chocolate Chip",
       img: "/mint.png",
       price: "$3.00",
+      title1: "Calories: 900",
     },
     {
       title: "Cookies N Creame",
       img: "/oreo.png",
       price: "$10.00",
+      title1: "Calories: 800",
     },
     {
       title: "Cookie Dough",
       img: "/cookiedough.png",
       price: "$5.50",
+      title1: "Calories: 1150",
     },
 
     {
       title: "Strawberry",
       img: "/strawberry.png",
       price: "$10.00",
+      title1: "Calories: 1300",
     },
   ];
 
@@ -51,16 +57,19 @@ export default function icecreampage() {
       title: "Cinammon",
       img: "/vanilla2.png",
       price: "$8.00",
+      title1: "Calories: 1300",
     },
     {
       title: "Green Tea",
       img: "/mint2.png",
       price: "$7.50",
+      title1: "Calories: 1200",
     },
     {
       title: "Butter Peaan",
       img: "/pecan.png",
       price: "$12.20",
+      title1: "Calories: 1000",
     },
   ];
 
@@ -87,8 +96,13 @@ export default function icecreampage() {
               />
             </CardBody>
             <CardFooter className="text-small justify-between">
-              <b>{item.title}</b>
-              <p className="text-default-500">{item.price}</p>
+              <div>
+                <b>{item.title}</b>
+                <p className="text-default-500">{item.title1}</p>
+              </div>
+              <div>
+                <p className="text-default-500">{item.price}</p>
+              </div>
             </CardFooter>
           </Card>
         ))}
@@ -113,8 +127,13 @@ export default function icecreampage() {
               />
             </CardBody>
             <CardFooter className="text-small justify-between">
-              <b>{item.title}</b>
-              <p className="text-default-500">{item.price}</p>
+              <div>
+                <b>{item.title}</b>
+                <p className="text-default-500">{item.title1}</p>
+              </div>
+              <div>
+                <p className="text-default-500">{item.price}</p>
+              </div>
             </CardFooter>
           </Card>
         ))}
