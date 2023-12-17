@@ -75,6 +75,27 @@ export default function icecreampage() {
 
   return (
     <DefaultLayout>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "150px",
+          backgroundColor: "#FFF0D9",
+          margin: "10px",
+        }}
+      >
+        <p
+          style={{
+            fontSize: "2rem",
+            textAlign: "center",
+            fontFamily: "Mandali",
+          }}
+        >
+          Enjoy Free Ice Cream
+        </p>
+      </div>
+
       <h1 style={{ fontSize: "48px", marginTop: "40px" }}>Original Flavor</h1>
 
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-3">
