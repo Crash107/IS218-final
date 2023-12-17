@@ -92,7 +92,7 @@ export default function icecreampage() {
             fontFamily: "Mandali",
           }}
         >
-          Enjoy Flavorful Ice Cream
+          Buy Our Cakes!
         </p>
       </div>
 

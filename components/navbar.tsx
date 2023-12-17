@@ -39,13 +39,13 @@ export const NavbarMain = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/HomePage2" className="font-sans">
+          <Link color="foreground" href="/cakepage" className="font-sans">
             CAKES
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link color="foreground" href="#" className="font-sans">
+          <Link color="foreground" href="/HomePage2" className="font-sans">
             ABOUT
           </Link>
         </NavbarItem>
