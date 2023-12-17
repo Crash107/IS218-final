@@ -29,15 +29,23 @@ export default function icecreampage() {
       price: "$10.00",
     },
     {
-      title: "Lemon",
+      title: "Orange",
       img: "/icecream.png",
-      price: "$5.30",
+      price: "$5.50",
     },
     {
-      title: "Avocado",
+      title: "Tangerine",
       img: "/icecream.png",
-      price: "$15.70",
+      price: "$3.00",
     },
+    {
+      title: "Raspberry",
+      img: "/icecream.png",
+      price: "$10.00",
+    },
+  ];
+
+  const list1 = [
     {
       title: "Lemon 2",
       img: "/icecream.png",
@@ -57,8 +65,35 @@ export default function icecreampage() {
 
   return (
     <DefaultLayout>
+      <h1>Original</h1>
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-3">
         {list.map((item, index) => (
+          <Card
+            shadow="sm"
+            key={index}
+            isPressable
+            onPress={() => console.log("item pressed")}
+          >
+            <CardBody className="overflow-visible p-0">
+              <Image
+                shadow="sm"
+                radius="lg"
+                width="100%"
+                alt={item.title}
+                className="w-full object-cover h-[140px]"
+                src={item.img}
+              />
+            </CardBody>
+            <CardFooter className="text-small justify-between">
+              <b>{item.title}</b>
+              <p className="text-default-500">{item.price}</p>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
+      <h1 style={{ marginTop: "60px" }}>New Flavors</h1>
+      <div className="gap-2 grid grid-cols-2 sm:grid-cols-3">
+        {list1.map((item, index) => (
           <Card
             shadow="sm"
             key={index}
