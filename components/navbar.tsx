@@ -47,8 +47,8 @@ export const NavbarMain = () => {
         </NavbarItem>
 
         <NavbarItem>
-          <Link color="foreground" href="/HomePage2" className="font-sans">
-            ABOUT
+          <Link color="foreground" href="/privacy" className="font-sans">
+            Privacy
           </Link>
         </NavbarItem>
       </Navbar>
