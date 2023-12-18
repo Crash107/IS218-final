@@ -11,7 +11,7 @@ import {
   Button,
 } from "@nextui-org/react";
 
-export default function icecreampage() {
+export default function about() {
   return (
     <DefaultLayout>
       <div
