@@ -14,7 +14,9 @@ export const NavbarMain = () => {
     <div>
       <Navbar>
         <NavbarBrand>
-          <p className="font-bold text-inherit">Scoops of Eurphoria</p>
+          <p className="font-bold text-inherit" style={{ fontSize: "2.25rem" }}>
+            Scoops of Eurphoria
+          </p>
           <Image width={50} alt="NextUI hero Image" src="/ice.png" />
         </NavbarBrand>
 
