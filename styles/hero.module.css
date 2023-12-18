@@ -46,3 +46,21 @@
     background-image: none;
   }
 }
+
+/* hero.module.css */
+/* ... (existing styles) */
+
+/* Define a specific class for your unordered list */
+/* hero.module.css */
+/* ... (existing styles) */
+
+.myList {
+  list-style-type: disc;
+  margin-bottom: 1rem;
+  margin-left: 20px; /* Adjust the left margin as needed */
+  padding-left: 0; /* Reset the padding to 0 */
+}
+
+.myList li {
+  margin-bottom: 0.5rem;
+}
