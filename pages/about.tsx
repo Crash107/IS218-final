@@ -48,7 +48,7 @@ export default function about() {
           <br />
           Old Family Recipe And A Dream
           <br /> , Began Crafting Ice Cream Like No
-          <br /> Other. This Wasn't Just Ice Cream; It <br /> Was A Canvas For
+          <br /> Other. This Wasnt Just Ice Cream It <br /> Was A Canvas For
           Their Culinary
           <br />
           Artistry, A Way To Bring People
@@ -60,7 +60,7 @@ export default function about() {
           From A Small, Charming Ice Cream
           <br /> Cart To The Vibrant, Beloved Store
           <br /> We Are Today, Scoops Of Euphoria
-          <br /> Has Evolved, Yet Our Essence <br /> Remains Unchanged. We've
+          <br /> Has Evolved, Yet Our Essence <br /> Remains Unchanged. Weve
           Grown
           <br /> Alongside Our Community, Serving
           <br /> Generations Of Families, Each Visit
