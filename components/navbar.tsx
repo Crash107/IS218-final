@@ -20,9 +20,9 @@ export const NavbarMain = () => {
 
         <NavbarContent justify="end">
           <NavbarItem>
-            <Button as={Link} color="primary" href="/HomePage2" variant="flat">
-              Join Mailchimp
-            </Button>
+            <Link color="foreground" href="/HomePage2" className="font-sans">
+              Sign Up
+            </Link>
           </NavbarItem>
         </NavbarContent>
       </Navbar>
