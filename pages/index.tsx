@@ -46,13 +46,28 @@ export default function IndexPage() {
           <p
             style={{
               color: "black",
-              fontSize: "98px",
+              fontSize: "4.25rem",
               fontWeight: "bold",
               textAlign: "center",
+              whiteSpace: "nowrap",
             }}
           >
-            Hello my name is Brian
+            Indulge in a World of Flavors
           </p>
+          <p style={{ fontSize: "2.6rem", whiteSpace: "nowrap" }}>
+            Sign up and receive 30% off your next order!
+          </p>
+
+          <Button
+            color="default"
+            style={{
+              marginTop: "40px",
+              fontSize: "1.5rem",
+              padding: "2rem 2rem",
+            }}
+          >
+            Sign Up
+          </Button>
         </div>
       </div>
 
@@ -74,7 +89,8 @@ export default function IndexPage() {
             marginTop: "5rem",
             width: "35rem",
             left: "50%",
-            fontSize: "3.75rem",
+            fontSize: "3.0rem",
+            whiteSpace: "nowrap",
           }}
         >
           New Cinammon Flavor!
@@ -83,7 +99,7 @@ export default function IndexPage() {
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-start",
+
           background: 'url("/icecream2.png") no-repeat calc(100% - 50px)',
           backgroundSize: "600px 375px",
           height: "560px",
@@ -98,19 +114,20 @@ export default function IndexPage() {
           style={{
             marginTop: "5rem",
             width: "35rem",
-            left: "50%",
+            left: "calc(50% + 60px)",
             fontSize: "3.75rem",
+            marginRight: "60px",
           }}
         >
           Winter Sale!
-          <br /> All original <br /> flavors are 40% Off
+          <br /> All original <br /> flavors are <br /> 40% Off
         </h1>
       </div>
       <div
         style={{
           display: "flex",
           justifyContent: "flex-end",
-          background: 'url("/icecream2.png") calc(0% + 50px) no-repeat',
+          background: 'url("/cakes.png") calc(0% + 50px) no-repeat',
           backgroundSize: "600px 375px",
           height: "560px",
           alignItems: "center",
@@ -118,16 +135,31 @@ export default function IndexPage() {
           borderBottom: "2px solid #000",
         }}
       >
-        <h1
+        <div
           style={{
-            marginTop: "5rem",
-            width: "35rem",
-            left: "50%",
-            fontSize: "3.75rem",
+            textAlign: "center",
+            marginRight: "50px", // Adjust margin as needed
           }}
         >
-          Look at our Delicious Cakes
-        </h1>
+          <h1
+            style={{
+              marginTop: "5rem",
+              width: "35rem",
+              left: "50%",
+              fontSize: "3.0rem",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Look at our Delicious Cakes
+          </h1>
+          <br />
+          <Button
+            color="default"
+            style={{ fontSize: "1.5rem", padding: "2rem 2rem" }}
+          >
+            View Cakes
+          </Button>
+        </div>
       </div>
     </DefaultLayout>
   );
