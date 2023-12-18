@@ -20,12 +20,18 @@ export default function DefaultLayout({
         <CookieBanner />
       </main>
       <footer className="w-full flex items-center py-3">
-        <div>
-          <h1>CONTACT US</h1>
-          <h2>scoopseuphoria@gmail.com</h2>
-
-          <h2>832-734-8946</h2>
-          <h2>123 Maple Street, Newark NJ</h2>
+        <div className="flex-grow flex justify-between">
+          <div>
+            <h1>CONTACT US</h1>
+            <h2>scoopseuphoria@gmail.com</h2>
+            <h2>832-734-8946</h2>
+            <h2>123 Maple Street, Newark NJ</h2>
+          </div>
+          <div>
+            <Link color="foreground" href="/about" className="font-sans">
+              ABOUT US
+            </Link>
+          </div>
         </div>
       </footer>
     </div>
