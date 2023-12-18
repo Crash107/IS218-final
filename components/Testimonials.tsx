@@ -109,7 +109,7 @@ const Testimonials = () => {
           <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>John Doe</h2>
         </div>
         <p style={{ marginTop: "10px" }}>
-          “This place brings me back to my childhood”
+          This place brings me back to my childhood
         </p>
       </div>
     </div>
