@@ -1,56 +1,49 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import {
-  Center,
-  Container,
-  Flex,
-  Heading,
-  Text,
-  useToast,
-} from "@chakra-ui/react";
+import { ToastContainer, toast as reactToast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import DefaultLayout from "@/layouts/default";
-
-import Image from "@nextui-org/react";
 import { Input } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
+
 export default function Home() {
   const [emailInput, setEmailInput] = useState("");
   const [buttonLoading, setButtonLoading] = useState(false);
-  const toast = useToast();
+
   const handleFormSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
     if (!emailInput) {
-      return toast({
-        description: "Email is required",
-        status: "error",
-      });
+      reactToast.error("Email is required");
+      return;
     }
+
     setButtonLoading(true);
+
     try {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         body: JSON.stringify({ email: emailInput }),
       });
+
       const data = await res.json();
+
       if (data.success) {
-        toast({
-          title: "Joined successfully.",
-          description: "Thank you for joining the waitlist!",
-          status: "success",
-        });
+        reactToast.success(
+          "Joined successfully. Thank you for joining the waitlist!"
+        );
       } else {
         throw new Error(
           data?.error || "Something went wrong, please try again later"
         );
       }
     } catch (e) {
-      toast({
-        description: (e as Error).message,
-        status: "error",
-      });
+      reactToast.error((e as Error).message);
+    } finally {
+      setEmailInput("");
+      setButtonLoading(false);
     }
-    setEmailInput("");
-    setButtonLoading(false);
   };
+
   return (
     <DefaultLayout>
       <div
@@ -93,6 +86,7 @@ export default function Home() {
           </Button>
         </form>
       </div>
+      <ToastContainer position="top-right" autoClose={3000} />
     </DefaultLayout>
   );
 }
