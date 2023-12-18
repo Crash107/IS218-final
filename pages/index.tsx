@@ -9,6 +9,7 @@ import DefaultLayout from "@/layouts/default";
 import { Image } from "@nextui-org/react";
 import React from "react";
 import styles from "../styles/hero.module.css";
+import Testimonials from "@/components/Testimonials";
 
 import {
   Navbar,
@@ -161,6 +162,8 @@ export default function IndexPage() {
           </Button>
         </div>
       </div>
+
+      <Testimonials />
     </DefaultLayout>
   );
 }
