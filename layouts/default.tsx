@@ -19,7 +19,10 @@ export default function DefaultLayout({
         {children}
         <CookieBanner />
       </main>
-      <footer className="w-full flex items-center py-3">
+      <footer
+        className="w-full flex items-center py-3"
+        style={{ backgroundColor: "#EFF6DF" }}
+      >
         <div className="flex-grow flex justify-between">
           <div>
             <h1>CONTACT US</h1>
