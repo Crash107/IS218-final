@@ -45,6 +45,7 @@ export default function IndexPage() {
           }}
         >
           <p
+            className="hello"
             style={{
               color: "black",
               fontSize: "4.25rem",
