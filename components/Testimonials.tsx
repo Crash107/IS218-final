@@ -30,86 +30,95 @@ const Testimonials = () => {
         >
           <img
             className="circular-image"
-            src="https://via.placeholder.com/100"
+            src="/testimonial.jpg"
             alt="Placeholder image"
             style={{
               borderRadius: "50%",
               marginBottom: "10px",
+              width: "60px",
             }}
           />
 
-          <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>John Doe</h2>
-        </div>
-        <p style={{ marginTop: "10px" }}>
-          Hello mya nems dsds desd esd esd esdsde eds
-        </p>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column", // Adjusted to column layout
-          alignItems: "center",
-          width: "300px",
-          border: "1px solid #ccc",
-          borderRadius: "8px",
-          padding: "16px",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row", // Adjusted to column layout
-            alignItems: "center",
-          }}
-        >
-          <img
-            className="circular-image"
-            src="https://via.placeholder.com/100"
-            alt="Placeholder image"
-            style={{
-              borderRadius: "50%",
-              marginBottom: "10px",
-            }}
-          />
-
-          <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>John Doe</h2>
-        </div>
-        <p style={{ marginTop: "10px" }}>
-          Hello mya nems dsds desd esd esd esdsde eds Hellim fsfs fs fse f
-        </p>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column", // Adjusted to column layout
-          alignItems: "center",
-          width: "300px",
-          border: "1px solid #ccc",
-          borderRadius: "8px",
-          padding: "16px",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row", // Adjusted to column layout
-            alignItems: "center",
-          }}
-        >
-          <img
-            className="circular-image"
-            src="https://via.placeholder.com/100"
-            alt="Placeholder image"
-            style={{
-              borderRadius: "50%",
-              marginBottom: "10px",
-            }}
-          />
-
-          <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>John Doe</h2>
+          <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>
+            Ethan Parker
+          </h2>
         </div>
         <p style={{ marginTop: "10px" }}>
           This place brings me back to my childhood
+        </p>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column", // Adjusted to column layout
+          alignItems: "center",
+          width: "300px",
+          border: "1px solid #ccc",
+          borderRadius: "8px",
+          padding: "16px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row", // Adjusted to column layout
+            alignItems: "center",
+          }}
+        >
+          <img
+            className="circular-image"
+            src="/testimonial.jpg"
+            alt="Placeholder image"
+            style={{
+              borderRadius: "50%",
+              marginBottom: "10px",
+              width: "60px",
+            }}
+          />
+
+          <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>
+            Marcus Johnson
+          </h2>
+        </div>
+        <p style={{ marginTop: "10px" }}>Amazing Variety of Food</p>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column", // Adjusted to column layout
+          alignItems: "center",
+          width: "300px",
+          border: "1px solid #ccc",
+          borderRadius: "8px",
+          padding: "16px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row", // Adjusted to column layout
+            alignItems: "center",
+          }}
+        >
+          <img
+            className="circular-image"
+            src="/testimonial.jpg"
+            alt="Placeholder image"
+            style={{
+              borderRadius: "50%",
+              marginBottom: "10px",
+              width: "60px",
+            }}
+          />
+
+          <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>Ava Simmons</h2>
+        </div>
+        <p style={{ marginTop: "10px" }}>
+          Loved Every Scoop
+          <br />
+          Delicious and Unique
+          <br />
+          flavors
         </p>
       </div>
     </div>
