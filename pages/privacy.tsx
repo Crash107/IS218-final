@@ -25,7 +25,7 @@ export default function about() {
         <h1 style={{ textAlign: "center" }}>
           Privacy Policy for Scoops OF Euphoria
         </h1>
-        <p>Scoops of Euphoria</p>
+        <p className="hello">Scoops of Euphoria</p>
         <p>123 Maple Street, Newark NJ</p>
         <p>ScoopsEuphoria@gmail.com</p>
         <p>832-734-8946</p>

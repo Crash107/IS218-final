@@ -86,6 +86,7 @@ export default function icecreampage() {
         }}
       >
         <p
+          className="hello"
           style={{
             fontSize: "2rem",
             textAlign: "center",
