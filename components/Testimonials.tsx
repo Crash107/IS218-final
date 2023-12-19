@@ -30,7 +30,7 @@ const Testimonials = () => {
         >
           <img
             className="circular-image"
-            src="/guy2.png"
+            src="https://via.placeholder.com/100"
             alt="Placeholder image"
             style={{
               borderRadius: "50%",
@@ -67,7 +67,7 @@ const Testimonials = () => {
         >
           <img
             className="circular-image"
-            src="/guy1.png"
+            src="https://via.placeholder.com/100"
             alt="Placeholder image"
             style={{
               borderRadius: "50%",
@@ -81,9 +81,7 @@ const Testimonials = () => {
           </h2>
         </div>
         <p style={{ marginTop: "10px" }}>
-          Amazing Variety of Food
-          <p />
-          <p />
+          Hello mya nems dsds desd esd esd esdsde eds Hellim fsfs fs fse f
         </p>
       </div>
       <div
