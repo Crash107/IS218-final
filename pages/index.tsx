@@ -63,7 +63,7 @@ export default function IndexPage() {
           <Button
             onClick={() => {
               console.log("Button clicked");
-              window.location.href = "/signup";
+              window.location.href = "/HomePage2";
             }}
             color="default"
             style={{
@@ -192,7 +192,22 @@ export default function IndexPage() {
         </div>
       </div>
 
-      <Testimonials />
+      <div
+        style={{
+          marginTop: "50px",
+          marginBottom: "120px",
+        }}
+      >
+        <h1
+          style={{
+            textAlign: "center",
+            fontSize: "3.0rem",
+          }}
+        >
+          Reviews
+        </h1>
+        <Testimonials />
+      </div>
     </DefaultLayout>
   );
 }

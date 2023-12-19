@@ -28,7 +28,7 @@ test("Ice cream tab navigates to the ice cream page", async ({ page }) => {
   await Promise.all([
     page.click("text=ICE CREAM"),
     page.waitForSelector("p.hello"),
-    page.waitForTimeout(1600),
+    page.waitForTimeout(2000),
   ]);
   console.log("After click:", page.url());
 
@@ -40,7 +40,7 @@ test("Cakes tab navigates to the cakes page", async ({ page }) => {
   await Promise.all([
     page.click("text=CAKES"),
     page.waitForSelector("p.hello"),
-    page.waitForTimeout(2000),
+    page.waitForTimeout(2250),
   ]);
   console.log("After click:", page.url());
 
@@ -52,7 +52,7 @@ test("Privacy tab navigates to the privacy page", async ({ page }) => {
   await Promise.all([
     page.click("text=Privacy"),
     await page.waitForSelector("p.hello"),
-    page.waitForTimeout(1500),
+    page.waitForTimeout(1750),
   ]);
   console.log("After click:", page.url());
 
@@ -95,7 +95,7 @@ test("Cake button navigates to the about page", async ({ page }) => {
   expect(page.url()).toBe(websiteURL2);
 });
 
-test("Cake1 button navigates to the about page", async ({ page }) => {
+test("Call to action navigates to the signup form", async ({ page }) => {
   console.log("Before click:", page.url());
   await Promise.all([
     page.click("text=Winter Sale!"),
