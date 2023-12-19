@@ -96,8 +96,15 @@ export default function icecreampage() {
           Enjoy Flavorful Ice Cream
         </p>
       </div>
-
-      <h1 style={{ fontSize: "48px", marginTop: "40px" }}>Original Flavor</h1>
+      <div
+        className="flex-grow flex justify-between"
+        style={{ margin: "0 60px" }}
+      >
+        <h1 style={{ fontSize: "48px", marginTop: "40px" }}>Original Flavor</h1>
+        <h1 style={{ fontSize: "48px", marginTop: "40px", color: "red" }}>
+          40% Off
+        </h1>
+      </div>
 
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-3">
         {list.map((item, index) => (
@@ -123,7 +130,9 @@ export default function icecreampage() {
                 <p className="text-default-500">{item.title1}</p>
               </div>
               <div>
-                <p className="text-default-500">{item.price}</p>
+                <p className="text-default-500" style={{ color: "red" }}>
+                  {item.price}
+                </p>
               </div>
             </CardFooter>
           </Card>

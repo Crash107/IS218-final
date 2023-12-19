@@ -80,9 +80,7 @@ const Testimonials = () => {
             Marcus Johnson
           </h2>
         </div>
-        <p style={{ marginTop: "10px" }}>
-          Hello mya nems dsds desd esd esd esdsde eds Hellim fsfs fs fse f
-        </p>
+        <p style={{ marginTop: "10px" }}>Amazing Variety of Flavors</p>
       </div>
       <div
         style={{
