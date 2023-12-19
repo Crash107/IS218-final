@@ -61,6 +61,10 @@ export default function IndexPage() {
           </p>
 
           <Button
+            onClick={() => {
+              console.log("Button clicked");
+              window.location.href = "/signup";
+            }}
             color="default"
             style={{
               marginTop: "40px",
@@ -98,33 +102,52 @@ export default function IndexPage() {
           New Cinammon Flavor!
         </h1>
       </div>
+
       <div
         style={{
           display: "flex",
-
           background: 'url("/icecream2.png") no-repeat calc(100% - 50px)',
           backgroundSize: "600px 375px",
           height: "560px",
           alignItems: "center",
           font: "2rem / 1.6",
           borderBottom: "2px solid #000",
-
           margin: "auto",
         }}
       >
-        <h1
-          style={{
-            marginTop: "5rem",
-            width: "35rem",
-            left: "calc(50% + 60px)",
-            fontSize: "3.75rem",
-            marginRight: "60px",
-          }}
-        >
-          Winter Sale!
-          <br /> All original <br /> flavors are <br /> 40% Off
-        </h1>
+        <Link href="/HomePage2">
+          <a
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+              display: "flex",
+              flexDirection: "column", // Adjust to column layout
+              alignItems: "center", // Center horizontally
+              textAlign: "center", // Center text within each line
+              width: "100%", // Take up full width
+              padding: "0 60px", // Add padding as needed
+            }}
+          >
+            <h1
+              style={{
+                fontSize: "2.0rem",
+                margin: "5rem 0",
+              }}
+            >
+              Winter Sale!
+            </h1>
+            <p
+              style={{
+                fontSize: "2.0rem",
+                margin: "5rem 0",
+              }}
+            >
+              All original flavors are 40% Off
+            </p>
+          </a>
+        </Link>
       </div>
+
       <div
         style={{
           display: "flex",
@@ -155,7 +178,12 @@ export default function IndexPage() {
             Look at our Delicious Cakes
           </h1>
           <br />
+
           <Button
+            onClick={() => {
+              console.log("Button clicked");
+              window.location.href = "/cakepage";
+            }}
             color="default"
             style={{ fontSize: "1.5rem", padding: "2rem 2rem" }}
           >
