@@ -26,7 +26,7 @@ test("Ice cream tab navigates to the ice cream page", async ({ page }) => {
   await Promise.all([
     page.click("text=ICE CREAM"),
     page.waitForSelector("p.hello"),
-    page.waitForTimeout(2000),
+    page.waitForTimeout(3000),
   ]);
   console.log("After click:", page.url());
 
@@ -38,7 +38,7 @@ test("Cakes tab navigates to the cakes page", async ({ page }) => {
   await Promise.all([
     page.click("text=CAKES"),
     page.waitForSelector("p.hello"),
-    page.waitForTimeout(2500),
+    page.waitForTimeout(3000),
   ]);
   console.log("After click:", page.url());
 
@@ -50,7 +50,7 @@ test("Privacy tab navigates to the privacy page", async ({ page }) => {
   await Promise.all([
     page.click("text=Privacy"),
     await page.waitForSelector("p.hello"),
-    page.waitForTimeout(1000),
+    page.waitForTimeout(2000),
   ]);
   console.log("After click:", page.url());
 
