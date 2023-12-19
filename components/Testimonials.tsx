@@ -40,7 +40,7 @@ const Testimonials = () => {
           />
 
           <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>
-            Ethan Parker
+            Ethan Parker Smith
           </h2>
         </div>
         <p style={{ marginTop: "10px" }}>
