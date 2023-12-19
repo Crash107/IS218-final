@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-const websiteURL = "http://localhost:3000/";
+const websiteURL = "http://localhost:3000";
 const websiteURL1 = "http://localhost:3000/icecreampage";
 const websiteURL2 = "http://localhost:3000/cakepage";
 const websiteURL3 = "http://localhost:3000/privacy";
@@ -18,7 +18,7 @@ test("Home tab navigates to the home page", async ({ page }) => {
   ]);
   console.log("After click:", page.url());
 
-  expect(page.url()).toBe(websiteURL);
+  expect(page.url()).toBe(websiteURL + "/");
 });
 
 test("Ice cream tab navigates to the ice cream page", async ({ page }) => {
