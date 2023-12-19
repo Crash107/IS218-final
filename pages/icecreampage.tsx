@@ -163,7 +163,9 @@ export default function icecreampage() {
                 <p className="text-default-500">{item.title1}</p>
               </div>
               <div>
-                <p className="text-default-500">{item.price}</p>
+                <p className="text-default-500" style={{ color: "red" }}>
+                  {item.price}
+                </p>
               </div>
             </CardFooter>
           </Card>

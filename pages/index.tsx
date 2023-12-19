@@ -119,7 +119,7 @@ export default function IndexPage() {
           <a
             style={{
               textDecoration: "none",
-              color: "inherit",
+
               display: "flex",
               flexDirection: "column", // Adjust to column layout
               alignItems: "center", // Center horizontally
@@ -132,6 +132,7 @@ export default function IndexPage() {
               style={{
                 fontSize: "2.0rem",
                 margin: "5rem 0",
+                color: "black",
               }}
             >
               Winter Sale!
@@ -140,6 +141,7 @@ export default function IndexPage() {
               style={{
                 fontSize: "2.0rem",
                 margin: "5rem 0",
+                color: "black",
               }}
             >
               All original flavors are 40% Off
