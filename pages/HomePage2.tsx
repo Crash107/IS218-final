@@ -57,6 +57,7 @@ export default function Home() {
         }}
       >
         <p
+          className="hello"
           style={{
             fontSize: "2rem",
             textAlign: "center",

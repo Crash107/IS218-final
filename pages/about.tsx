@@ -25,6 +25,7 @@ export default function about() {
         }}
       >
         <p
+          className="hello"
           style={{
             fontSize: "2rem",
             textAlign: "center",
