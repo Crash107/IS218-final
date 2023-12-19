@@ -30,7 +30,7 @@ const Testimonials = () => {
         >
           <img
             className="circular-image"
-            src="https://via.placeholder.com/100"
+            src="guy2.png"
             alt="Placeholder image"
             style={{
               borderRadius: "50%",
@@ -67,7 +67,7 @@ const Testimonials = () => {
         >
           <img
             className="circular-image"
-            src="https://via.placeholder.com/100"
+            src="guy1.png"
             alt="Placeholder image"
             style={{
               borderRadius: "50%",
