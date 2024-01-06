@@ -30,32 +30,32 @@ export const NavbarMain = () => {
       </Navbar>
 
       <Navbar className="flex justify-center">
-        <NavbarItem className="mr-4">
-          {" "}
-          {/* Adjust the margin-right (mr) for spacing */}
-          <Link color="foreground" href="/" className="home1">
-            HOME
-          </Link>
-        </NavbarItem>
-        <NavbarItem className="mr-4">
-          <Link href="/icecreampage" color="foreground" className="icecream1">
-            ICE CREAM
-          </Link>
-        </NavbarItem>
-        <NavbarItem className="mr-4">
-          <Link
-            color="foreground"
-            href="/cakepage"
-            className="font-sans cakes1"
-          >
-            CAKES
-          </Link>
-        </NavbarItem>
-        <NavbarItem className="mr-4">
-          <Link color="foreground" href="/privacy" className="privacy1">
-            PRIVACY
-          </Link>
-        </NavbarItem>
+        <NavbarContent>
+          <NavbarItem className="mr-4">
+            <Link color="foreground" href="/" className="home1">
+              HOME
+            </Link>
+          </NavbarItem>
+          <NavbarItem className="mr-4">
+            <Link href="/icecreampage" color="foreground" className="icecream1">
+              ICE CREAM
+            </Link>
+          </NavbarItem>
+          <NavbarItem className="mr-4">
+            <Link
+              color="foreground"
+              href="/cakepage"
+              className="font-sans cakes1"
+            >
+              CAKES
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" href="/privacy" className="privacy1">
+              PRIVACY
+            </Link>
+          </NavbarItem>
+        </NavbarContent>
       </Navbar>
     </div>
   );
