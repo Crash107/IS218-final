@@ -62,6 +62,7 @@ export default function icecreampage({ allPostsData }: HomeProps) {
                     shadow="sm"
                     radius="lg"
                     src={card.img}
+                    alt="Cards Images"
                     width="100%"
                     className="w-full object-cover h-[140px]"
                   />
