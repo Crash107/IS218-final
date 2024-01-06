@@ -115,7 +115,7 @@ export default function IndexPage() {
           margin: "auto",
         }}
       >
-        <a
+        <div
           style={{
             textDecoration: "none",
 
@@ -145,7 +145,7 @@ export default function IndexPage() {
           >
             All original flavors are 40% Off
           </p>
-        </a>
+        </div>
       </div>
 
       <div
