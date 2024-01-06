@@ -29,7 +29,7 @@ export default function IndexPage() {
           justifyContent: "center", // Center horizontally
           alignItems: "center", // Center vertically
           height: "800px",
-          background: 'url("/hero.png") no-repeat',
+          background: 'url("/hero.webp") no-repeat',
           backgroundPosition: "center", // Center the background image
           marginRight: "auto",
           marginLeft: "auto",
