@@ -12,7 +12,7 @@ import {
   Button,
 } from "@nextui-org/react";
 
-export default function about() {
+export default function privacy() {
   return (
     <DefaultLayout>
       <div
@@ -80,11 +80,11 @@ export default function about() {
             Right to data portability: You have the right to request the
             transfer of your data to another organization or directly to you.
           </li>
-          <h1 style={{ textAlign: "center" }}>
-            By using our website, you hereby consent to our privacy policy and
-            agree to its terms.
-          </h1>
         </ul>
+        <h1 style={{ textAlign: "center" }}>
+          By using our website, you hereby consent to our privacy policy and
+          agree to its terms.
+        </h1>
       </div>
     </DefaultLayout>
   );
