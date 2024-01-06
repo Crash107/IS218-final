@@ -115,39 +115,37 @@ export default function IndexPage() {
           margin: "auto",
         }}
       >
-        <Link href="/HomePage2">
-          <a
-            style={{
-              textDecoration: "none",
+        <a
+          style={{
+            textDecoration: "none",
 
-              display: "flex",
-              flexDirection: "column", // Adjust to column layout
-              alignItems: "center", // Center horizontally
-              textAlign: "center", // Center text within each line
-              width: "100%", // Take up full width
-              padding: "0 60px", // Add padding as needed
+            display: "flex",
+            flexDirection: "column", // Adjust to column layout
+            alignItems: "center", // Center horizontally
+            textAlign: "center", // Center text within each line
+            width: "100%", // Take up full width
+            padding: "0 60px", // Add padding as needed
+          }}
+        >
+          <h1
+            style={{
+              fontSize: "2.0rem",
+              margin: "5rem 0",
+              color: "black",
             }}
           >
-            <h1
-              style={{
-                fontSize: "2.0rem",
-                margin: "5rem 0",
-                color: "black",
-              }}
-            >
-              Winter Sale!
-            </h1>
-            <p
-              style={{
-                fontSize: "2.0rem",
-                margin: "5rem 0",
-                color: "black",
-              }}
-            >
-              All original flavors are 40% Off
-            </p>
-          </a>
-        </Link>
+            Winter Sale!
+          </h1>
+          <p
+            style={{
+              fontSize: "2.0rem",
+              margin: "5rem 0",
+              color: "black",
+            }}
+          >
+            All original flavors are 40% Off
+          </p>
+        </a>
       </div>
 
       <div
