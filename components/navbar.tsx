@@ -29,32 +29,34 @@ export const NavbarMain = () => {
         </NavbarContent>
       </Navbar>
 
-      <Navbar className="flex justify-center">
-        <NavbarItem>
-          <Link color="foreground" href="/" className="home1">
-            HOME
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="/icecreampage" color="foreground" className="icecream1">
-            ICE CREAM
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            color="foreground"
-            href="/cakepage"
-            className="font-sans cakes1"
-          >
-            CAKES
-          </Link>
-        </NavbarItem>
+      <Navbar>
+        <NavbarContent className="hidden sm:flex gap-4" justify="center">
+          <NavbarItem>
+            <Link color="foreground" href="/" className="home1">
+              HOME
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link href="/icecreampage" color="foreground" className="icecream1">
+              ICE CREAM
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link
+              color="foreground"
+              href="/cakepage"
+              className="font-sans cakes1"
+            >
+              CAKES
+            </Link>
+          </NavbarItem>
 
-        <NavbarItem>
-          <Link color="foreground" href="/privacy" className="privacy1">
-            Privacy
-          </Link>
-        </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" href="/privacy" className="privacy1">
+              Privacy
+            </Link>
+          </NavbarItem>
+        </NavbarContent>
       </Navbar>
     </div>
   );

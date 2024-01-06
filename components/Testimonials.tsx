@@ -1,119 +1,91 @@
-import React from "react";
+import React, { CSSProperties } from "react";
+import Image from "next/image";
 
 const Testimonials = () => {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-around", // Adjust spacing between cards
-        alignItems: "center",
-        marginTop: "60px",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column", // Adjusted to column layout
-          alignItems: "center",
-          width: "300px",
-          border: "1px solid #ccc",
-          borderRadius: "8px",
-          padding: "16px",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row", // Adjusted to column layout
-            alignItems: "center",
-          }}
-        >
-          <img
-            className="circular-image"
-            src="guy2.png"
-            alt="Placeholder image"
-            style={{
-              borderRadius: "50%",
-              marginBottom: "10px",
-              width: "60px",
-            }}
-          />
+  const testimonialContainerStyle: CSSProperties = {
+    display: "flex",
+    justifyContent: "space-around",
+    alignItems: "center",
+    marginTop: "60px",
+  };
 
+  const testimonialBoxStyle: CSSProperties = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "300px", // Fixed width
+    height: "200px", // Fixed height
+    border: "1px solid #ccc",
+    borderRadius: "8px",
+    padding: "16px",
+  };
+
+  const testimonialImageContainerStyle: CSSProperties = {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+  };
+
+  const testimonialImageStyle: CSSProperties = {
+    borderRadius: "50%",
+    marginBottom: "10px",
+    width: "60px",
+    height: "60px", // Fixed image height
+  };
+
+  const testimonialTextStyle: CSSProperties = {
+    marginTop: "10px",
+  };
+
+  return (
+    <div style={testimonialContainerStyle}>
+      <div style={testimonialBoxStyle}>
+        <div style={testimonialImageContainerStyle}>
+          <Image
+            className="circular-image"
+            src="/guy2.png"
+            alt="Placeholder image"
+            width={60}
+            height={60}
+            style={testimonialImageStyle}
+          />
           <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>
             Ethan Parker Smith
           </h2>
         </div>
-        <p style={{ marginTop: "10px" }}>
+        <p style={testimonialTextStyle}>
           This place brings me back to my childhood
         </p>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column", // Adjusted to column layout
-          alignItems: "center",
-          width: "300px",
-          border: "1px solid #ccc",
-          borderRadius: "8px",
-          padding: "16px",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row", // Adjusted to column layout
-            alignItems: "center",
-          }}
-        >
-          <img
+      <div style={testimonialBoxStyle}>
+        <div style={testimonialImageContainerStyle}>
+          <Image
             className="circular-image"
-            src="guy1.png"
+            src="/guy1.png"
             alt="Placeholder image"
-            style={{
-              borderRadius: "50%",
-              marginBottom: "10px",
-              width: "60px",
-            }}
+            width={60}
+            height={60}
+            style={testimonialImageStyle}
           />
-
           <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>
             Marcus Johnson
           </h2>
         </div>
-        <p style={{ marginTop: "10px" }}>Amazing Variety of Flavors</p>
+        <p style={testimonialTextStyle}>Amazing Variety of Flavors</p>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column", // Adjusted to column layout
-          alignItems: "center",
-          width: "300px",
-          border: "1px solid #ccc",
-          borderRadius: "8px",
-          padding: "16px",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row", // Adjusted to column layout
-            alignItems: "center",
-          }}
-        >
-          <img
+      <div style={testimonialBoxStyle}>
+        <div style={testimonialImageContainerStyle}>
+          <Image
             className="circular-image"
             src="/testimonial.jpg"
             alt="Placeholder image"
-            style={{
-              borderRadius: "50%",
-              marginBottom: "10px",
-              width: "60px",
-            }}
+            width={60}
+            height={60}
+            style={testimonialImageStyle}
           />
-
           <h2 style={{ marginLeft: "40px", marginTop: "10px" }}>Ava Simmons</h2>
         </div>
-        <p style={{ marginTop: "10px" }}>
+        <p style={testimonialTextStyle}>
           Loved Every Scoop
           <br />
           Delicious and Unique
