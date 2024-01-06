@@ -22,7 +22,7 @@ export const NavbarMain = () => {
 
         <NavbarContent justify="end">
           <NavbarItem>
-            <Link color="foreground" href="/HomePage2" className="font-sans">
+            <Link color="foreground" href="/HomePage2" className="signup1">
               Sign Up
             </Link>
           </NavbarItem>
@@ -31,23 +31,27 @@ export const NavbarMain = () => {
 
       <Navbar className="flex justify-center">
         <NavbarItem>
-          <Link color="foreground" href="/" className="font-sans">
+          <Link color="foreground" href="/" className="home1">
             HOME
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="/icecreampage" color="foreground" className="font-sans">
+          <Link href="/icecreampage" color="foreground" className="icecream1">
             ICE CREAM
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/cakepage" className="font-sans">
+          <Link
+            color="foreground"
+            href="/cakepage"
+            className="font-sans cakes1"
+          >
             CAKES
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link color="foreground" href="/privacy" className="font-sans">
+          <Link color="foreground" href="/privacy" className="privacy1">
             Privacy
           </Link>
         </NavbarItem>
