@@ -7,6 +7,7 @@
 - Managed project milestones and issue tracking via GitHub, ensuring alignment with design goals and user analytics insights, while leveraging its collaborative features for effective team collaboration
 - Assisted in the implementation of two test cases, ensuring thorough validation of functionality and reliability
 
+## Link to web applicaion: https://is-218-final-pi.vercel.app/
 
 ## This was our Sign In Sheet as we mainly worked on this project in class. This Sign In sheet kept me and my partner acccountable
 ## Sign In: https://github.com/jordonchau/IS218-final/blob/main/signin.md
